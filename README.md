@@ -18,4 +18,8 @@ COLUMN DESCRIPTION FOR DIABETES DATA:
 • Outcome
 From the data set in the (.csv) File We can find several variables, some of 
 them are independent (several medical predictor variables) and only one target 
+<<<<<<< HEAD
 dependent variable (Outcome).
+=======
+dependent variable (Outcome).
+>>>>>>> e88bc341867e93e068e91fdd6bf658cfef7b2e94
