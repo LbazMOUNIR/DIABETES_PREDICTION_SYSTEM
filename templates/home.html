@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DIABETES PREDICTION SYSTEM</title>
+    <style>
+        body{
+        background-image:url('/static/Picture1.PNG');
+        background-size: cover;
+        
+        }
+        div{
+            color:#ff4d6b;
+    }
+    h1{
+          color: 'black';
+          font-family: arial, sans-serif;
+          font-size: 40px;
+          font-weight: bold;
+          margin-top: 40px;
+    }
+   button[type=submit] {
+    background-color: #ff4d6b;
+    border: 2px;
+    color: white;
+    padding: 16px 32px;
+    cursor: pointer;
+    margin-top: 80;
+}
+
+    h2{
+         color: 'white';
+         font-family: arial, sans-serif;
+         font-size: 15px;
+         font-weight: bold;
+         
+    }
+    .main {
+    position: fixed;
+    top: 50%; /* Adjust as needed */
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: aliceblue;
+    opacity: 0.8;
+    width: 500px;
+    border-radius: 10px;
+    align-items: center;
+    padding: 2%;
+}
+    </style>
+</head>
+<body align="center">
+
+    <h1 >DIABETES PREDICTION SYSTEM</h1>
+    
+    <form method="post" action="{{ url_for('other_page') }}" class="main" >
+        <!-- Add your form fields here if needed -->
+        <h2> Our Diabetes Prediction System is designed to assist you in 
+            assessing the likelihood of diabetes based on a set of input parameters.
+            Diabetes is a chronic condition that affects millions worldwide, 
+            and early detection can lead to better management and improved outcomes.
+            Before entering the required information, please ensure that you have 
+            accurate details to receive the most reliable prediction.
+            Your health is important to us, and this system aims to provide valuable 
+            insights to promote a proactive approach to well-being</h2>
+        <button type="submit"> Submit </button>
+    </form>
+
+</body>
+</html>
